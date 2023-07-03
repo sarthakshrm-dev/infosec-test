@@ -1,13 +1,129 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.dashboard {
+  height: calc(100vh - 89px);
+}
+
+.bg {
+  background-color: #F2F2F2;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+.h-85 {
+  height: 85%;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.nav-item button {
+  color: black;
+}
+
+.nav-tabs {
+  margin-bottom: 0 !important;
+}
+
+.tab-content {
+  padding: 2.5rem 0;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.form-check-label {
+  margin-left: 0.5rem;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: pink;
+  color: white;
+}
+
+.nav-item {
+  font-size: small;
+}
+
+.links {
+  font-size: medium;
+  font-weight: bold;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links ul {
+  font-size: medium;
+  font-weight: bold;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links li {
+  margin-bottom: 0.1rem;
+  cursor: pointer;
+}
+
+.links li ul {
+  font-size: small;
+  font-weight: 400;
+  padding: 0 0 0 0.5rem;
+}
+
+.navbar-collapse {
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 90vw;
+  transition: transform 0.35s ease;
+  transform: translateX(-110%);
+}
+
+.navbar-collapse.show {
+  transform: translateX(0);
+}
+
+.close-menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.mobile-menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 10vh;
+  width: 100%;
+  background-color: #133D7A;
+}
+
+.add-button {
+  width: 7vh;
+  height: 7vh;
+  background-color: orange;
+  border-radius: 50%;
+  position: absolute;
+  top: -30%;
+  font-size: larger;
+  border: none;
 }
