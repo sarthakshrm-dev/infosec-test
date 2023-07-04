@@ -10,7 +10,7 @@ function DesktopNav() {
           <img className="ms-3" src={require("../assets/logo-text.png")} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="mobile-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#home">Search Candidate</Nav.Link>
             <Nav.Link href="#link">Post New Job</Nav.Link>

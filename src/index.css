@@ -87,7 +87,7 @@
   padding: 0 0 0 0.5rem;
 }
 
-.navbar-collapse {
+.mobile-navbar-collapse {
   z-index: 1000;
   position: absolute;
   top: 0;
@@ -98,7 +98,7 @@
   transform: translateX(-110%);
 }
 
-.navbar-collapse.show {
+.show {
   transform: translateX(0);
 }
 

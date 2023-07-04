@@ -35,7 +35,7 @@ function MobileNav({ menu, setShowForm, setMenu }) {
       <Container className="d-flex">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
-          className="d-flex flex-column justify-content-between align-items-start h-100vh pt-4 pb-3 ps-4"
+          className="d-flex flex-column justify-content-between align-items-start h-100vh pt-4 pb-3 ps-4 mobile-navbar-collapse"
           id="basic-navbar-nav"
         >
           <Nav>

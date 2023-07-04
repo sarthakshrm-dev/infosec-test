@@ -44,6 +44,14 @@ function Dashboard() {
             navigate('/')
         }
 
+        axios.get('http://localhost:5000/jobs', {
+            headers: {
+                Authorization: sessionStorage.getItem('token')
+            }
+        }).then((res) => {
+          console.log(res.data)
+        })
+
         const handleResize = () => {
           if (window.innerWidth <= 767) {
             setIsSmall(true);
